@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Сайт</title>
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- inject:svg --><svg xmlns="http://www.w3.org/2000/svg" style="display:none"><symbol id="arrow_right" viewbox="0 0 444.815 444.815"><path d="M421.976 196.712L236.111 10.848C228.884 3.615 220.219 0 210.131 0c-9.9 0-18.464 3.615-25.697 10.848L163.023 32.26c-7.234 6.853-10.85 15.418-10.85 25.697 0 10.277 3.616 18.842 10.85 25.697l83.653 83.937H45.677c-9.895 0-17.937 3.568-24.123 10.707s-9.279 15.752-9.279 25.837v36.546c0 10.088 3.094 18.698 9.279 25.837s14.228 10.704 24.123 10.704h200.995L163.02 360.88c-7.234 7.228-10.85 15.89-10.85 25.981 0 10.089 3.616 18.75 10.85 25.978l21.411 21.412c7.426 7.043 15.99 10.564 25.697 10.564 9.899 0 18.562-3.521 25.981-10.564l185.864-185.864c7.043-7.043 10.567-15.701 10.567-25.981 0-10.467-3.524-19.036-10.564-25.694z"/></symbol><symbol id="facebook" viewbox="0 0 470.5 470.5"><path d="M271.5 154.2v-40.5c0-6.1.3-10.8.8-14.1.6-3.3 1.9-6.6 3.9-9.9 2-3.2 5.2-5.5 9.7-6.7 4.5-1.2 10.4-1.9 17.9-1.9h40.5V0h-64.8c-37.5 0-64.4 8.9-80.8 26.7-16.4 17.8-24.6 44-24.6 78.7v48.8h-48.5v81.1h48.5v235.3h97.4V235.3h64.8l8.6-81.1h-73.4z"/></symbol><symbol id="flickr" viewbox="0 0 300 300"><circle cx="67.57" cy="150" r="67.57"/><circle cx="232.43" cy="150" r="67.57"/></symbol><symbol id="linkedin" viewbox="0 0 382 382"><path d="M347.445 0H34.555C15.471 0 0 15.471 0 34.555v312.889C0 366.529 15.471 382 34.555 382h312.889C366.529 382 382 366.529 382 347.444V34.555C382 15.471 366.529 0 347.445 0zM118.207 329.844c0 5.554-4.502 10.056-10.056 10.056H65.345c-5.554 0-10.056-4.502-10.056-10.056V150.403c0-5.554 4.502-10.056 10.056-10.056h42.806c5.554 0 10.056 4.502 10.056 10.056v179.441zM86.748 123.432c-22.459 0-40.666-18.207-40.666-40.666S64.289 42.1 86.748 42.1s40.666 18.207 40.666 40.666-18.206 40.666-40.666 40.666zM341.91 330.654a9.247 9.247 0 0 1-9.246 9.246H286.73a9.247 9.247 0 0 1-9.246-9.246v-84.168c0-12.556 3.683-55.021-32.813-55.021-28.309 0-34.051 29.066-35.204 42.11v97.079a9.246 9.246 0 0 1-9.246 9.246h-44.426a9.247 9.247 0 0 1-9.246-9.246V149.593a9.247 9.247 0 0 1 9.246-9.246h44.426a9.247 9.247 0 0 1 9.246 9.246v15.655c10.497-15.753 26.097-27.912 59.312-27.912 73.552 0 73.131 68.716 73.131 106.472v86.846z"/></symbol><symbol id="quotes_close" viewbox="0 0 32 32"><g><path d="M32 28V4L20 16v12zM12 28V4L0 16v12z"/></g></symbol><symbol id="quotes_open" viewbox="0 0 32 32"><g><path d="M0 4v24l12-12V4zM20 4v24l12-12V4z"/></g></symbol><symbol id="twitter" viewbox="0 0 410.2 410.2"><path d="M403.6 74.2c-9.1 4-18.6 7.2-28.3 9.5C386 73.5 394 60.8 398.6 46.6c1.3-4.1-3.1-7.6-6.8-5.4-13.5 8-28 14-43.2 17.9-.9.2-1.8.3-2.7.3-2.8 0-5.5-1-7.6-2.9-16.2-14.2-36.9-22.1-58.5-22.1-9.3 0-18.8 1.5-28 4.3-28.7 8.9-50.8 32.5-57.7 61.7-2.6 10.9-3.3 21.9-2.1 32.6.1 1.2-.4 2.1-.8 2.5-.6.7-1.5 1.1-2.4 1.1h-.3c-62.8-5.8-119.4-36.1-159.4-85.1-2-2.5-6-2.2-7.6.6-7.8 13.5-12 28.8-12 44.5 0 24 9.6 46.6 26.4 63-7-1.7-13.8-4.3-20.2-7.8-3.1-1.7-6.8.5-6.9 4-.4 35.6 20.4 67.3 51.6 81.6h-1.9c-5 0-10-.5-14.9-1.4-3.4-.7-6.3 2.6-5.3 6 10.1 31.7 37.4 55 70 60.3-27.1 18.2-58.6 27.8-91.4 27.8H6.7c-3.2 0-5.8 2.1-6.6 5.1-.8 3 .7 6.2 3.4 7.7 37 21.5 79.1 32.9 122 32.9 37.5 0 72.5-7.4 104.2-22.1 29-13.4 54.7-32.7 76.3-57.1 20.1-22.8 35.8-49.1 46.7-78.2 10.4-27.7 15.9-57.3 15.9-85.6v-1.3c0-4.5 2.1-8.8 5.6-11.7 13.6-11 25.4-24 35.2-38.6 2.5-4.1-1.5-8.9-5.8-7z"/></symbol></svg><!-- endinject -->
+    <section class="index_section_header">
+        <div class="index_section_header__container">
+            <div class="index_section_header__content">
+                <span>
+                    .FOLIO <br /> ONE PAGE <br /> PSD THEME
+                </span>
+                <h1>Simple, clear, minimal portfolio template</h1>
+            </div>
+        </div>
+    </section>
+    <section class="index_section_nav">
+        <div class="index_section_nav__container">
+            <a class="index_section_nav__logo" href="#">.folio</a>
+            <div class="index_section_nav__menu_social">
+                <nav class="menu__container">
+                    <span class="menu_mobile_icon"></span>
+                    <ul class="index_section_nav__menu_wrap">
+                        <li><a href="#" class="btn">work</a></li>
+                        <li><a href="#" class="btn">NEWS</a></li>
+                        <li><a href="#" class="btn">bio</a></li>
+                        <li><a href="#" class="btn">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="index_section_nav__social_wrap">
+                    <a href="#" class="index_section_nav__social_item_wrap">
+                        <svg class="index_section_nav__social_item"><use xlink:href="#linkedin"></use></svg>
+                    </a>
+                    <a href="#" class="index_section_nav__social_item_wrap">
+                        <svg class="index_section_nav__social_item"><use xlink:href="#facebook"></use></svg>
+                    </a>
+                    <a href="#" class="index_section_nav__social_item_wrap">
+                        <svg class="index_section_nav__social_item"><use xlink:href="#flickr"></use></svg>
+                    </a>
+                    <a href="#" class="index_section_nav__social_item_wrap">
+                        <svg class="index_section_nav__social_item"><use xlink:href="#twitter"></use></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="index_section_portfolio">
+        <div class="index_section_portfolio__container">
+            <div class="index_section_portfolio__head_wrap">
+                <h2>portfolio /</h2>
+                <nav>
+                    
+                    <ul class="index_section_portfolio__menu_wrap">
+                        <li><a href="#" class="btn">Glamour</a></li>
+                        <li><a href="#" class="btn">fashion</a></li>
+                        <li><a href="#" class="btn">personal</a></li>
+                        <li><a href="#" class="btn">street</a></li>
+                        <li><a href="#" class="btn">portrait</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="index_section_portfolio__foto_wrap">
+                <template id="template__foto_link" style="display: none">
+                        <ul class="index_section_portfolio__foto_link_wrap">
+                            <li><a href="#" class="index_section_portfolio__foto_link index_section_portfolio__foto_link_pic1 btn"></a></li>
+                            <li><a href="#" class="index_section_portfolio__foto_link index_section_portfolio__foto_link_pic2 btn"></a></li>
+                            <li><a href="#" class="index_section_portfolio__foto_link index_section_portfolio__foto_link_pic3 btn"></a></li>
+                            <li><a href="#" class="index_section_portfolio__foto_link index_section_portfolio__foto_link_pic4 btn"></a></li>
+                        </ul>
+                </template>
+                <div class="index_section_portfolio__foto"></div>
+                <div class="index_section_portfolio__foto"></div>
+                <div class="index_section_portfolio__foto"></div>
+                <div class="index_section_portfolio__foto"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic index_section_portfolio__foto__pic1"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic2"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic3"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic4"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic5"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic6"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic7"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic8"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__quarter index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic9"></div>
+                <div class="index_section_portfolio__foto index_section_portfolio__foto__pic
+                  index_section_portfolio__foto__pic10"></div>
+            </div>
+        </div>
+    </section>
+    <section class="index_section_blockquote">
+        <div class="index_section_blockquote__container">
+            <div class="index_section_blockquote__content">
+                <blockquote class="index_section_blockquote__cite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel diam non neque iaculis sollicitudin.</blockquote>
+                <span class="index_section_blockquote__autor">- Lorem ipsum -</span>
+            </div>
+        </div>
+    </section>
+    <section class="index_section_news">
+        <div class="index_section_news__container">
+            <h2>news /</h2>
+            <div class="index_section_news__content_wrap">
+                <div class="index_section_news__content_left">
+                    <div class="index_section_news__content_left__info_wrap">
+                        <div class="index_section_news__content_left__info_date">23 September 2013</div>
+                        <div class="index_section_news__content_left__info_fashion">Glamour, Fashion</div>
+                    </div>
+                    <h3>Duis dapibus aliquam mi, eget euismod sem scelerisque ut.</h3>
+                    <div class="index_section_news__content_left__pic" ></div>
+                    <p class="index_section_news__content_left__text">
+                        Nunc nec massa et risus iaculis interdum et sed mi. Nam viverra ac neque eu aliquet. Maecenas posuere, neque non vestibulum sodales, arcu diam interdum nulla, in molestie magna magna vitae
+                        justo. Aenean semper volutpat sapien eu porta. Etiam vestibulum pharetra risus vel ultricies.
+                    </p>
+                    <div class="index_section_news__content_left__btn_wrap">
+                        <a href="#" class="btn">Read more...</a>
+                    </div>
+                </div>
+
+                <div class="index_section_news__content_right">
+                    <div class="index_section_news__content_left__tags_wrap">
+                        <span class="index_section_news__content_left__tags_head">tags</span>
+                        <div class="index_section_news__content_left__tags">
+                            <div class="index_section_news__content_left__tags_item btn">Glamour</div>
+                            <div class="index_section_news__content_left__tags_item btn">Street </div>
+                            <div class="index_section_news__content_left__tags_item btn">Personal</div>
+                            <div class="index_section_news__content_left__tags_item btn">Portrait</div>
+                            <div class="index_section_news__content_left__tags_item btn">B&W </div>
+                            <div class="index_section_news__content_left__tags_item btn">Nude </div>
+                            <div class="index_section_news__content_left__tags_item btn">Wedding</div>
+                            <div class="index_section_news__content_left__tags_item btn">Fashion</div>
+                            <div class="index_section_news__content_left__tags_item btn">Kids</div>
+                        </div>
+                    </div>
+                    <h4 class="index_section_news__content_left__h4">from the <span>BLOG</span></h4>
+                    <div class="index_section_news__content_left__article_wrap">
+                        <article class="index_section_news__content_left__article">
+                            <div class="index_section_news__content_left__article_pic"></div>
+                            <div class="index_section_news__content_left__article_content">
+                                <p class="index_section_news__content_left__article_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum, non posuere libero posuere.</p>
+                                <span class="index_section_news__content_left__article_date">26 Aug, 2013</span>
+                            </div>
+                        </article>
+                        <article class="index_section_news__content_left__article">
+                            <div class="index_section_news__content_left__article_pic"></div>
+                            <div class="index_section_news__content_left__article_content">
+                                <p class="index_section_news__content_left__article_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi blandit velit id dolor fermentum, non posuere libero posuere.</p>
+                                <span class="index_section_news__content_left__article_date">26 Aug, 2013</span>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="index_section_brands">
+        <div class="index_section_brands__container">
+            <a href="#">
+                <img class="index_section_brands__item" src="img/lable_canon.png" alt="brand" />
+            </a>
+            <a href="#">
+                <img class="index_section_brands__item" src="img/lable_nikon.png" alt="brand" />
+            </a>
+            <a href="#">
+                <img class="index_section_brands__item" src="img/lable_manfrotto.png" alt="brand" />
+            </a>
+            <a href="#">
+                <img class="index_section_brands__item" src="img/lable_prolight.png" alt="brand" />
+            </a>
+        </div>
+    </section>
+    <section class="index_section_bio">
+        <div class="index_section_bio__container">
+            <h2>bio /</h2>
+            <div class="index_section_bio__contant_wrap">
+                <div class="index_section_bio__content_left">
+                    <span class="index_section_bio__content_left__name">john smits</span>
+                    <img class="index_section_bio__content_left__pic" src="img/face.jpg" alt="face" />
+                    <div class="index_section_bio__social_wrap">
+                        <a href="#" class="index_section_bio__social_item_wrap">
+                            <svg class="index_section_bio__social_item"><use xlink:href="#linkedin"></use></svg>
+                        </a>
+                        <a href="#" class="index_section_bio__social_item_wrap">
+                            <svg class="index_section_bio__social_item"><use xlink:href="#facebook"></use></svg>
+                        </a>
+                        <a href="#" class="index_section_bio__social_item_wrap">
+                            <svg class="index_section_bio__social_item"><use xlink:href="#flickr"></use></svg>
+                        </a>
+                        <a href="#" class="index_section_bio__social_item_wrap">
+                            <svg class="index_section_bio__social_item"><use xlink:href="#twitter"></use></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="index_section_bio__content_right">
+                    <h4>Best Solution is the simplest IDEA!</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel diam non neque iaculis sollicitudin. Nunc nec massa et risus
+                        iaculis interdum et sed mi. Nam viverra ac neque eu aliquet. Maecenas posuere, neque non vestibulum sodales, arcu diam interdum nulla, in molestie magna magna vitae justo. Aenean semper volutpat sapien eu porta. Etiam vestibulum pharetra risus vel ultricies. Phasellus tempus, enim sed gravida interdum, lorem ipsum auctor libero, ut ultrices dolor dolor at nulla. Integer viverra vitae velit eget tincidunt. Fusce tristique eros ac est mattis consequat.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel diam non neque iaculis sollicitudin. Nunc nec massa et risus
+                        iaculis interdum et sed mi. Nam viverra ac neque eu aliquet. Maecenas posuere, neque non vestibulum sodales, arcu diam interdum nulla, in molestie magna magna vitae justo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="index_section_contacts">
+        <div class="index_section_contacts__container">
+            <h2>contact /</h2>
+            <div class="index_section_contacts__info_wrap">
+                <!--<div class="index_section_contacts__info_contact">-->
+                <span class="index_section_contacts__phone">+39 123 45678 90</span>
+                <button class="btn">contact@smits.me</button>
+                <span class="index_section_contacts__address">124 Avenue Street, Los Angeles,California</span>
+                <!--</div>-->
+            </div>
+            <span class="index_section_contacts__copyright">&copy; Copyright 2013 The Uncreative Lab, All Rights Reserved.</span>
+        </div>
+    </section>
+
+    <!--<script src="https://code.jquery.com/jquery-latest.min.js"></script>-->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+    "name": "tz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gulp": "^4.0.0-alpha.2"
+    },
+    "devDependencies": {
+        "browser-sync": "latest",
+        "del": "latest",
+        "gulp-autoprefixer": "latest",
+        "gulp-cached": "latest",
+        "gulp-cheerio": "latest",
+        "gulp-clean-css": "latest",
+        "gulp-concat": "latest",
+        "gulp-debug": "latest",
+        "gulp-google-cdn": "latest",
+        "gulp-if": "latest",
+        "gulp-imagemin": "latest",
+        "gulp-inject": "latest",
+        "gulp-less": "latest",
+        "gulp-less-import": "latest",
+        "gulp-load-plugins": "latest",
+        "gulp-newer": "latest",
+        "gulp-notify": "latest",
+        "gulp-remember": "latest",
+        "gulp-rename": "latest",
+        "gulp-rewrite-css": "latest",
+        "gulp-sftp": "latest",
+        "gulp-size": "latest",
+        "gulp-sourcemaps": "latest",
+        "gulp-svg-sprite": "latest",
+        "gulp-svgmin": "latest",
+        "gulp-svgstore": "latest",
+        "gulp-uglify": "latest",
+        "gulp-useref": "latest",
+        "gulp-watch": "latest",
+        "multipipe": "latest",
+        "newer": "latest",
+        "path": "latest",
+        "pump": "latest",
+        "stream-combiner2": "latest",
+        "vinyl-ftp": "latest",
+        "wiredep": "latest"
+    }
+}
