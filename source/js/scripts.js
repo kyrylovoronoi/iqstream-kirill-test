@@ -51,4 +51,21 @@
         }
     });
 
+    //УДАЛЕНИЕ ВНЕШНИХ ССЫЛОК
+    var container = document.querySelector('.index_section_news__container');
+    var myDomain = window.location.href;
+    console.log("myDomain: ", myDomain);
+    var links = container.querySelectorAll('a[href]');
+    console.log("всего сcылок: ", links.length);
+    var i = 0; 
+
+    Array.prototype.forEach.call(links, function (item) {
+        if (item.origin != myDomain.slice(0,-1))
+        {
+            item.parentElement.removeChild(item);
+            i++;
+        }
+    });
+    console.log("удаленo: ", i);
+
 })();
